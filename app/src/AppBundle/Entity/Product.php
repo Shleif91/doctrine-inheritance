@@ -26,7 +26,7 @@ abstract class Product
     protected $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Donor")
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Donor", cascade={"persist"})
      * @ORM\JoinColumn(name="donor_id", referencedColumnName="id")
      */
     protected $donor;
