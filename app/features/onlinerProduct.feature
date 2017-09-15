@@ -10,4 +10,3 @@ Feature: Add OnlinerProduct
     Examples:
       | name     | rating | minPrice |
       | iphone 7 | 1      | 700      |
-#      |  sony  |    3   |    350    |
